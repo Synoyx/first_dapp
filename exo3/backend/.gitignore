@@ -1,0 +1,24 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Mac files
+.DS_Store
+
+#hardhat files
+node_modules
+coverage/
+cache_hardhat/
+artifacts/
+coverage.json
